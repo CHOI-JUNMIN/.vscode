@@ -15,4 +15,11 @@ int main()
     std::cout << "두 숫자의 합: " << sum << std::endl;
 
     return 0;
-}
+} /*
+ int main()
+ {
+
+     std::cout << "hi "  << std::endl;
+
+     return 0;
+ }*/
