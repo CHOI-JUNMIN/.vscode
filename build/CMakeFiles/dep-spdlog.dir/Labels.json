@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Public/.vscode/build/CMakeFiles/dep-spdlog"
+		},
+		{
+			"file" : "C:/Users/Public/.vscode/build/CMakeFiles/021c286f604c49ddfb211539b430cfd0/dep-spdlog.rule"
+		},
+		{
+			"file" : "C:/Users/Public/.vscode/build/CMakeFiles/cb3097fe258cc73ea9c4138fda64806f/dep-spdlog-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Public/.vscode/build/CMakeFiles/b637f68ffcc7fffe67df0b88fd80d0d6/dep-spdlog-build.rule"
+		},
+		{
+			"file" : "C:/Users/Public/.vscode/build/CMakeFiles/b637f68ffcc7fffe67df0b88fd80d0d6/dep-spdlog-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Public/.vscode/build/CMakeFiles/b637f68ffcc7fffe67df0b88fd80d0d6/dep-spdlog-download.rule"
+		},
+		{
+			"file" : "C:/Users/Public/.vscode/build/CMakeFiles/b637f68ffcc7fffe67df0b88fd80d0d6/dep-spdlog-install.rule"
+		},
+		{
+			"file" : "C:/Users/Public/.vscode/build/CMakeFiles/b637f68ffcc7fffe67df0b88fd80d0d6/dep-spdlog-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Public/.vscode/build/CMakeFiles/b637f68ffcc7fffe67df0b88fd80d0d6/dep-spdlog-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Public/.vscode/build/CMakeFiles/b637f68ffcc7fffe67df0b88fd80d0d6/dep-spdlog-test.rule"
+		},
+		{
+			"file" : "C:/Users/Public/.vscode/build/CMakeFiles/b637f68ffcc7fffe67df0b88fd80d0d6/dep-spdlog-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep-spdlog"
+		],
+		"name" : "dep-spdlog"
+	}
+}

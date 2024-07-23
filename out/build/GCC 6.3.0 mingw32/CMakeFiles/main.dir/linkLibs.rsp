@@ -1,1 +1,1 @@
- -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -L"C:/Users/Public/.vscode/out/build/GCC 6.3.0 mingw32/install/lib"  -lspdlogd -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

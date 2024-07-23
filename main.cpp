@@ -1,5 +1,5 @@
+/*
 #include <iostream>
-
 int main()
 {
     double num1, num2;
@@ -15,11 +15,11 @@ int main()
     std::cout << "두 숫자의 합: " << sum << std::endl;
 
     return 0;
-} /*
- int main()
- {
+}*/
+#include <spdlog/spdlog.h>
 
-     std::cout << "hi "  << std::endl;
-
-     return 0;
- }*/
+int main(int argc, const char **argv)
+{
+    SPDLOG_INFO("Hello, world!");
+    return 0;
+}

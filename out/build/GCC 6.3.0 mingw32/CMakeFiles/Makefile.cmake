@@ -20,6 +20,17 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/GNU.cmake"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/ExternalProject.cmake"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/ExternalProject/PatchInfo.txt.in"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/ExternalProject/RepositoryInfo.txt.in"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/ExternalProject/UpdateInfo.txt.in"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/ExternalProject/cfgcmd.txt.in"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/ExternalProject/gitclone.cmake.in"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/ExternalProject/mkdirs.cmake.in"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/FindGit.cmake"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
@@ -34,6 +45,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.30.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.30.1/CMakeSystem.cmake"
+  "dep-spdlog-prefix/tmp/dep-spdlog-mkdirs.cmake"
   )
 
 # The corresponding makefile is:
@@ -44,10 +56,17 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "dep-spdlog-prefix/tmp/dep-spdlog-mkdirs.cmake"
+  "dep-spdlog-prefix/tmp/dep-spdlog-gitclone.cmake"
+  "dep-spdlog-prefix/src/dep-spdlog-stamp/dep-spdlog-gitinfo.txt"
+  "dep-spdlog-prefix/src/dep-spdlog-stamp/dep-spdlog-update-info.txt"
+  "dep-spdlog-prefix/src/dep-spdlog-stamp/dep-spdlog-patch-info.txt"
+  "dep-spdlog-prefix/tmp/dep-spdlog-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/dep-spdlog.dir/DependInfo.cmake"
   )

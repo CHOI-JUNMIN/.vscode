@@ -1,3 +1,4 @@
 C:/Users/Public/.vscode/out/build/GCC 6.3.0 mingw32/CMakeFiles/main.dir
+C:/Users/Public/.vscode/out/build/GCC 6.3.0 mingw32/CMakeFiles/dep-spdlog.dir
 C:/Users/Public/.vscode/out/build/GCC 6.3.0 mingw32/CMakeFiles/edit_cache.dir
 C:/Users/Public/.vscode/out/build/GCC 6.3.0 mingw32/CMakeFiles/rebuild_cache.dir

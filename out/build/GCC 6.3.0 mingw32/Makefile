@@ -128,6 +128,19 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named dep-spdlog
+
+# Build rule for target.
+dep-spdlog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dep-spdlog
+.PHONY : dep-spdlog
+
+# fast build rule for target.
+dep-spdlog/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dep-spdlog.dir\build.make CMakeFiles/dep-spdlog.dir/build
+.PHONY : dep-spdlog/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -160,6 +173,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... dep-spdlog
 	@echo ... main
 	@echo ... main.obj
 	@echo ... main.i

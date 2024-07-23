@@ -13,7 +13,11 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_executable",
+			"target_link_directories",
+			"target_link_libraries",
+			"add_dependencies",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -29,6 +33,30 @@
 				"file" : 0,
 				"line" : 7,
 				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
 			}
 		]
 	},
@@ -39,6 +67,13 @@
 			[
 				{
 					"fragment" : "-g -std=gnu++1z"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/Public/.vscode/out/build/GCC 6.3.0 mingw32/install/include"
 				}
 			],
 			"language" : "CXX",
@@ -56,6 +91,13 @@
 			]
 		}
 	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "dep-spdlog::@6890427a1f51a3e7e1df"
+		}
+	],
 	"id" : "main::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
@@ -68,6 +110,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L\"C:\\Users\\Public\\.vscode\\out\\build\\GCC 6.3.0 mingw32\\install\\lib\"",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lspdlogd",
+				"role" : "libraries"
 			},
 			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",

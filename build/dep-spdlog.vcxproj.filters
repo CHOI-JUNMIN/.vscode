@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\.vscode\build\CMakeFiles\b637f68ffcc7fffe67df0b88fd80d0d6\dep-spdlog-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\.vscode\build\CMakeFiles\b637f68ffcc7fffe67df0b88fd80d0d6\dep-spdlog-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\.vscode\build\CMakeFiles\b637f68ffcc7fffe67df0b88fd80d0d6\dep-spdlog-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\.vscode\build\CMakeFiles\b637f68ffcc7fffe67df0b88fd80d0d6\dep-spdlog-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\.vscode\build\CMakeFiles\b637f68ffcc7fffe67df0b88fd80d0d6\dep-spdlog-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\.vscode\build\CMakeFiles\b637f68ffcc7fffe67df0b88fd80d0d6\dep-spdlog-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\.vscode\build\CMakeFiles\b637f68ffcc7fffe67df0b88fd80d0d6\dep-spdlog-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\.vscode\build\CMakeFiles\b637f68ffcc7fffe67df0b88fd80d0d6\dep-spdlog-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\.vscode\build\CMakeFiles\cb3097fe258cc73ea9c4138fda64806f\dep-spdlog-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\.vscode\build\CMakeFiles\021c286f604c49ddfb211539b430cfd0\dep-spdlog.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\.vscode\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Public\.vscode\build\CMakeFiles\dep-spdlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EC244DB2-0112-3697-9353-DB5403DE007A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
