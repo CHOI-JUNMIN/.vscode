@@ -3,8 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 if (MINGW)
     add_definitions(-D_WIN32_WINNT=0x0600)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -D_WIN32_WINNT=0x0600 -g")
-    set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g")
-    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -lws2_32")
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -lws2_32 -lkernel32")
 endif()
 
 set(PROJECT_NAME main)   #변수세팅 PROJECT_NAME을 main라고 그냥 설정 
@@ -46,3 +45,5 @@ target_link_libraries(${PROJECT_NAME} PRIVATE ${DEP_LIBS})
 
 # Dependency들이 먼저 build 될 수 있게 관계 설정
 add_dependencies(${PROJECT_NAME} ${DEP_LIST})
+
+set(CMAKE_BUILD_TYPE Debug)

@@ -8,10 +8,10 @@
             "name": "(gdb) launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/main.exe",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
+            "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
@@ -27,7 +27,12 @@
                     "text": "-gdb-set disassembly-flavor intel",
                     "ignoreFailures": true
                 }
-            ]
+            ],
+            "preLaunchTask": "build",
+            "logging": {
+                "engineLogging": true
+            },
+            "internalConsoleOptions": "openOnSessionStart"
         }
     ]
 }
