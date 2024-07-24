@@ -18,7 +18,7 @@ file(MAKE_DIRECTORY
   "C:/Users/Public/.vscode/build/dep-spdlog-prefix/src/dep-spdlog-stamp"
 )
 
-set(configSubDirs Debug;Release;MinSizeRel;RelWithDebInfo)
+set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
     file(MAKE_DIRECTORY "C:/Users/Public/.vscode/build/dep-spdlog-prefix/src/dep-spdlog-stamp/${subDir}")
 endforeach()

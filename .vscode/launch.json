@@ -5,17 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) 시작",
+            "name": "(gdb) launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "프로그램 이름 입력(예: ${workspaceFolder}/a.exe)",
+            "program": "${workspaceFolder}/build/main.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false,
+            "externalConsole": true,
             "MIMode": "gdb",
-            "miDebuggerPath": "/path/to/gdb",
+            "miDebuggerPath": "C:/Program Files/mingw64/bin/gdb.exe",
             "setupCommands": [
                 {
                     "description": "gdb에 자동 서식 지정 사용",

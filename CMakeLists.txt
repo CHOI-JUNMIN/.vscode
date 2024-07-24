@@ -1,10 +1,17 @@
-cmake_minimum_required(VERSION 3.5.0)   
+cmake_minimum_required(VERSION 3.10)   
+
+if (MINGW)
+    add_definitions(-D_WIN32_WINNT=0x0600)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -D_WIN32_WINNT=0x0600 -g")
+    set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g")
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -lws2_32")
+endif()
 
 set(PROJECT_NAME main)   #변수세팅 PROJECT_NAME을 main라고 그냥 설정 
 set(CMAKE_CXX_STANDARD 17)  #cmake로 시작하는 값을 어떻게 세팅하냐에 따라 달라짐 cxx=c++, -> c++ 17 이런느낌 
 
-project(main VERSION 0.1.0 LANGUAGES C CXX)   #main이라는 프로젝트로 0.1.0버전이며 c,c++사용
-add_executable(main main.cpp) #main이라는 실행파일이 main.cpp로부터 만들어짐
+project(${PROJECT_NAME} VERSION 0.1.0 LANGUAGES C CXX)   #main이라는 프로젝트로 0.1.0버전이며 c,c++사용
+add_executable(${PROJECT_NAME} main.cpp) #main이라는 실행파일이 main.cpp로부터 만들어짐
 
 #cmake -Bbuild . -DCMAKE_BUILD_TYPE=Debug  configure하는법  기본적인방법임
 #cmake --build build --config Debug  build하는법
@@ -30,12 +37,12 @@ ExternalProject_Add(
 )
 # Dependency 리스트 및 라이브러리 파일 리스트 추가
 set(DEP_LIST ${DEP_LIST} dep-spdlog)
-set(DEP_LIBS ${DEP_LIBS} spdlog$<$<CONFIG:Debug>:d>)
+set(DEP_LIBS ${DEP_LIBS} spdlog)
 
 # 우리 프로젝트에 include / lib 관련 옵션 추가
 target_include_directories(${PROJECT_NAME} PUBLIC ${DEP_INCLUDE_DIR})
 target_link_directories(${PROJECT_NAME} PUBLIC ${DEP_LIB_DIR})
-target_link_libraries(${PROJECT_NAME} PUBLIC ${DEP_LIBS})
+target_link_libraries(${PROJECT_NAME} PRIVATE ${DEP_LIBS})
 
 # Dependency들이 먼저 build 될 수 있게 관계 설정
 add_dependencies(${PROJECT_NAME} ${DEP_LIST})

@@ -4,18 +4,19 @@ int main()
 {
     double num1, num2;
 
-    std::cout << "Ã¹ ¹øÂ° ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+    std::cout << "ì²« ë²ˆì§¸ ìˆ«ì: ";
     std::cin >> num1;
 
-    std::cout << "µÎ ¹øÂ° ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+    std::cout << "ë‘ ë²ˆì§¸ ìˆ«ì: ";
     std::cin >> num2;
 
     double sum = num1 + num2;
 
-    std::cout << "µÎ ¼ıÀÚÀÇ ÇÕ: " << sum << std::endl;
+    std::cout << "ìˆ«ì í•©: " << sum << std::endl;
 
     return 0;
 }*/
+
 #include <spdlog/spdlog.h>
 
 int main(int argc, const char **argv)
