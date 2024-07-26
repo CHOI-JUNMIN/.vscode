@@ -6,7 +6,7 @@
                 "${workspaceFolder}\\**",
                 "C:\\MinGW\\include",
                 "C:\\Program Files\\mingw64\\include",
-                "C:/Users/Public/.vscode/build/dep-spdlog-prefix/src/dep-spdlog/include"
+                "C:/Users/Public/vscode/build/dep-spdlog-prefix/src/dep-spdlog/include"
             ],
             "defines": [
                 "_DEBUG",
