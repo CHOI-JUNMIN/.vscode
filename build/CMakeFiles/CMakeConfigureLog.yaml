@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:6 (project)"
     message: |
       The system is: Windows - 10.0.19045 - AMD64
   -
@@ -14,7 +14,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:6 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler:  
@@ -24,7 +24,7 @@ events:
       The output was:
       0
       msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-      빌드 시작: 2024-07-26 오후 1:44:12
+      빌드 시작: 2024-07-26 오후 2:03:27
       
       1 노드의 "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\3.30.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:00.53
+      경과 시간: 00:00:00.54
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -69,7 +69,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:6 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-      빌드 시작: 2024-07-26 오후 1:44:13
+      빌드 시작: 2024-07-26 오후 2:03:28
       
       1 노드의 "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\3.30.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -123,46 +123,48 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:6 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-sbb57o"
-      binary: "C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-sbb57o"
+      source: "C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-u7ocph"
+      binary: "C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-u7ocph"
     cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-sbb57o'
+        Change Dir: 'C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-u7ocph'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e8be1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_079ad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-07-26 오후 1:44:14
+        빌드 시작: 2024-07-26 오후 2:03:29
         
-        1 노드의 "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sbb57o\\cmTC_e8be1.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7ocph\\cmTC_079ad.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_e8be1.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_079ad.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sbb57o\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_e8be1.dir\\Debug\\cmTC_e8be1.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7ocph\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_079ad.dir\\Debug\\cmTC_079ad.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_e8be1.dir\\Debug\\cmTC_e8be1.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_e8be1.dir\\Debug\\cmTC_e8be1.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_079ad.dir\\Debug\\cmTC_079ad.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_079ad.dir\\Debug\\cmTC_079ad.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8be1.dir\\Debug\\\\" /Fd"cmTC_e8be1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_079ad.dir\\Debug\\\\" /Fd"cmTC_079ad.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8be1.dir\\Debug\\\\" /Fd"cmTC_e8be1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_079ad.dir\\Debug\\\\" /Fd"cmTC_079ad.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sbb57o\\Debug\\cmTC_e8be1.exe" /INCREMENTAL /ILK:"cmTC_e8be1.dir\\Debug\\cmTC_e8be1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-sbb57o/Debug/cmTC_e8be1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-sbb57o/Debug/cmTC_e8be1.lib" /MACHINE:X64  /machine:x64 cmTC_e8be1.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_e8be1.vcxproj -> C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sbb57o\\Debug\\cmTC_e8be1.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7ocph\\Debug\\cmTC_079ad.exe" /INCREMENTAL /ILK:"cmTC_079ad.dir\\Debug\\cmTC_079ad.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-u7ocph/Debug/cmTC_079ad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-u7ocph/Debug/cmTC_079ad.lib" /MACHINE:X64  /machine:x64 cmTC_079ad.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_079ad.vcxproj -> C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7ocph\\Debug\\cmTC_079ad.exe
         FinalizeBuildStatus:
-          "cmTC_e8be1.dir\\Debug\\cmTC_e8be1.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_e8be1.dir\\Debug\\cmTC_e8be1.tlog\\cmTC_e8be1.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sbb57o\\cmTC_e8be1.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_079ad.dir\\Debug\\cmTC_079ad.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_079ad.dir\\Debug\\cmTC_079ad.tlog\\cmTC_079ad.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7ocph\\cmTC_079ad.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
@@ -176,7 +178,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:6 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -194,7 +196,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:6 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.40.33812.0
@@ -204,47 +206,49 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:6 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-1hgiq8"
-      binary: "C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-1hgiq8"
+      source: "C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-46hzbk"
+      binary: "C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-46hzbk"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-1hgiq8'
+        Change Dir: 'C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-46hzbk'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5f853.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6d516.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-07-26 오후 1:44:15
+        빌드 시작: 2024-07-26 오후 2:03:30
         
-        1 노드의 "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1hgiq8\\cmTC_5f853.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hzbk\\cmTC_6d516.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_5f853.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_6d516.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1hgiq8\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_5f853.dir\\Debug\\cmTC_5f853.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hzbk\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_6d516.dir\\Debug\\cmTC_6d516.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_5f853.dir\\Debug\\cmTC_5f853.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_5f853.dir\\Debug\\cmTC_5f853.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_6d516.dir\\Debug\\cmTC_6d516.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_6d516.dir\\Debug\\cmTC_6d516.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f853.dir\\Debug\\\\" /Fd"cmTC_5f853.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_6d516.dir\\Debug\\\\" /Fd"cmTC_6d516.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f853.dir\\Debug\\\\" /Fd"cmTC_5f853.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_6d516.dir\\Debug\\\\" /Fd"cmTC_6d516.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1hgiq8\\Debug\\cmTC_5f853.exe" /INCREMENTAL /ILK:"cmTC_5f853.dir\\Debug\\cmTC_5f853.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-1hgiq8/Debug/cmTC_5f853.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-1hgiq8/Debug/cmTC_5f853.lib" /MACHINE:X64  /machine:x64 cmTC_5f853.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_5f853.vcxproj -> C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1hgiq8\\Debug\\cmTC_5f853.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hzbk\\Debug\\cmTC_6d516.exe" /INCREMENTAL /ILK:"cmTC_6d516.dir\\Debug\\cmTC_6d516.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-46hzbk/Debug/cmTC_6d516.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-46hzbk/Debug/cmTC_6d516.lib" /MACHINE:X64  /machine:x64 cmTC_6d516.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6d516.vcxproj -> C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hzbk\\Debug\\cmTC_6d516.exe
         FinalizeBuildStatus:
-          "cmTC_5f853.dir\\Debug\\cmTC_5f853.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_5f853.dir\\Debug\\cmTC_5f853.tlog\\cmTC_5f853.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1hgiq8\\cmTC_5f853.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_6d516.dir\\Debug\\cmTC_6d516.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_6d516.dir\\Debug\\cmTC_6d516.tlog\\cmTC_6d516.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hzbk\\cmTC_6d516.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
@@ -258,7 +262,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:6 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -276,7 +280,295 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
+      빌드 시작: 2024-07-26 오후 2:10:06
+      
+      1 노드의 "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\3.30.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
+      PrepareForBuild:
+        "Debug\\" 디렉터리를 만들고 있습니다.
+        구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+        "Debug\\CompilerIdC.tlog\\" 디렉터리를 만들고 있습니다.
+      InitializeBuildStatus:
+        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Public\\vscode\\build\\CMakeFiles\\3.30.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+        "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"에 연결(touching)하고 있습니다.
+      "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\3.30.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+      
+      빌드했습니다.
+          경고 0개
+          오류 0개
+      
+      경과 시간: 00:00:00.54
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Public/vscode/build/CMakeFiles/3.30.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
+      빌드 시작: 2024-07-26 오후 2:10:06
+      
+      1 노드의 "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\3.30.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
+      PrepareForBuild:
+        "Debug\\" 디렉터리를 만들고 있습니다.
+        구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+        "Debug\\CompilerIdCXX.tlog\\" 디렉터리를 만들고 있습니다.
+      InitializeBuildStatus:
+        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Public\\vscode\\build\\CMakeFiles\\3.30.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"에 연결(touching)하고 있습니다.
+      "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\3.30.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+      
+      빌드했습니다.
+          경고 0개
+          오류 0개
+      
+      경과 시간: 00:00:00.54
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Public/vscode/build/CMakeFiles/3.30.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-jw4u3y"
+      binary: "C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-jw4u3y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-jw4u3y'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_67aef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
+        빌드 시작: 2024-07-26 오후 2:10:07
+        
+        1 노드의 "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jw4u3y\\cmTC_67aef.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_67aef.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+          "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jw4u3y\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_67aef.dir\\Debug\\cmTC_67aef.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_67aef.dir\\Debug\\cmTC_67aef.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_67aef.dir\\Debug\\cmTC_67aef.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67aef.dir\\Debug\\\\" /Fd"cmTC_67aef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67aef.dir\\Debug\\\\" /Fd"cmTC_67aef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jw4u3y\\Debug\\cmTC_67aef.exe" /INCREMENTAL /ILK:"cmTC_67aef.dir\\Debug\\cmTC_67aef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-jw4u3y/Debug/cmTC_67aef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-jw4u3y/Debug/cmTC_67aef.lib" /MACHINE:X64  /machine:x64 cmTC_67aef.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_67aef.vcxproj -> C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jw4u3y\\Debug\\cmTC_67aef.exe
+        FinalizeBuildStatus:
+          "cmTC_67aef.dir\\Debug\\cmTC_67aef.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_67aef.dir\\Debug\\cmTC_67aef.tlog\\cmTC_67aef.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jw4u3y\\cmTC_67aef.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+            경고 0개
+            오류 0개
+        
+        경과 시간: 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-3tpm7w"
+      binary: "C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-3tpm7w"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-3tpm7w'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_24827.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
+        빌드 시작: 2024-07-26 오후 2:10:08
+        
+        1 노드의 "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3tpm7w\\cmTC_24827.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_24827.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
+          "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3tpm7w\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_24827.dir\\Debug\\cmTC_24827.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_24827.dir\\Debug\\cmTC_24827.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_24827.dir\\Debug\\cmTC_24827.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_24827.dir\\Debug\\\\" /Fd"cmTC_24827.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_24827.dir\\Debug\\\\" /Fd"cmTC_24827.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3tpm7w\\Debug\\cmTC_24827.exe" /INCREMENTAL /ILK:"cmTC_24827.dir\\Debug\\cmTC_24827.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-3tpm7w/Debug/cmTC_24827.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/vscode/build/CMakeFiles/CMakeScratch/TryCompile-3tpm7w/Debug/cmTC_24827.lib" /MACHINE:X64  /machine:x64 cmTC_24827.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_24827.vcxproj -> C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3tpm7w\\Debug\\cmTC_24827.exe
+        FinalizeBuildStatus:
+          "cmTC_24827.dir\\Debug\\cmTC_24827.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_24827.dir\\Debug\\cmTC_24827.tlog\\cmTC_24827.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\Public\\vscode\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3tpm7w\\cmTC_24827.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+            경고 0개
+            오류 0개
+        
+        경과 시간: 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.40.33812.0

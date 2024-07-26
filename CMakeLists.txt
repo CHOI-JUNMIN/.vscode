@@ -4,4 +4,4 @@ set(PROJECT_NAME vscode)
 set(CMAKE_CXX_STANDARD 17)
 
 project(${PROJECT_NAME})
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} main.cpp)

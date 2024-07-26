@@ -16,7 +16,14 @@ int main()
 
     return 0;
 }*/
+#include <iostream>
 
+int main(int argc, const char **argv)
+{
+    std::cout << "Hello, world!" << std::endl;
+    return 0;
+}
+/*
 #include <spdlog/spdlog.h>
 
 int main(int argc, const char **argv)
@@ -24,3 +31,4 @@ int main(int argc, const char **argv)
     SPDLOG_INFO("Hello, world!");
     return 0;
 }
+*/
