@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Public/vscode/build/CMakeFiles/dep_glfw"
+		},
+		{
+			"file" : "C:/Users/Public/vscode/build/CMakeFiles/7be671bbabc7e7a84422574a0c755964/dep_glfw.rule"
+		},
+		{
+			"file" : "C:/Users/Public/vscode/build/CMakeFiles/a3809599dc387b4c030804c47c6b17f4/dep_glfw-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Public/vscode/build/CMakeFiles/0c4f621410e69038aecf8275874f91b3/dep_glfw-build.rule"
+		},
+		{
+			"file" : "C:/Users/Public/vscode/build/CMakeFiles/0c4f621410e69038aecf8275874f91b3/dep_glfw-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Public/vscode/build/CMakeFiles/0c4f621410e69038aecf8275874f91b3/dep_glfw-download.rule"
+		},
+		{
+			"file" : "C:/Users/Public/vscode/build/CMakeFiles/0c4f621410e69038aecf8275874f91b3/dep_glfw-install.rule"
+		},
+		{
+			"file" : "C:/Users/Public/vscode/build/CMakeFiles/0c4f621410e69038aecf8275874f91b3/dep_glfw-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Public/vscode/build/CMakeFiles/0c4f621410e69038aecf8275874f91b3/dep_glfw-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Public/vscode/build/CMakeFiles/0c4f621410e69038aecf8275874f91b3/dep_glfw-test.rule"
+		},
+		{
+			"file" : "C:/Users/Public/vscode/build/CMakeFiles/0c4f621410e69038aecf8275874f91b3/dep_glfw-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glfw"
+		],
+		"name" : "dep_glfw"
+	}
+}

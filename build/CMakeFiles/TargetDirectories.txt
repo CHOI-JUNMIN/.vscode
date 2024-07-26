@@ -1,4 +1,5 @@
 C:/Users/Public/vscode/build/CMakeFiles/vscode.dir
-C:/Users/Public/vscode/build/CMakeFiles/dep-spdlog.dir
+C:/Users/Public/vscode/build/CMakeFiles/dep_spdlog.dir
+C:/Users/Public/vscode/build/CMakeFiles/dep_glfw.dir
 C:/Users/Public/vscode/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/Public/vscode/build/CMakeFiles/ZERO_CHECK.dir
