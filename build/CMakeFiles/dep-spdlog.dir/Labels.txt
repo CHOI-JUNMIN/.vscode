@@ -1,0 +1,14 @@
+# Target labels
+ dep-spdlog
+# Source files and their labels
+C:/Users/Public/vscode/build/CMakeFiles/dep-spdlog
+C:/Users/Public/vscode/build/CMakeFiles/7be671bbabc7e7a84422574a0c755964/dep-spdlog.rule
+C:/Users/Public/vscode/build/CMakeFiles/a3809599dc387b4c030804c47c6b17f4/dep-spdlog-complete.rule
+C:/Users/Public/vscode/build/CMakeFiles/7ad3f23a872f935ec5cffb9e27b12178/dep-spdlog-build.rule
+C:/Users/Public/vscode/build/CMakeFiles/7ad3f23a872f935ec5cffb9e27b12178/dep-spdlog-configure.rule
+C:/Users/Public/vscode/build/CMakeFiles/7ad3f23a872f935ec5cffb9e27b12178/dep-spdlog-download.rule
+C:/Users/Public/vscode/build/CMakeFiles/7ad3f23a872f935ec5cffb9e27b12178/dep-spdlog-install.rule
+C:/Users/Public/vscode/build/CMakeFiles/7ad3f23a872f935ec5cffb9e27b12178/dep-spdlog-mkdir.rule
+C:/Users/Public/vscode/build/CMakeFiles/7ad3f23a872f935ec5cffb9e27b12178/dep-spdlog-patch.rule
+C:/Users/Public/vscode/build/CMakeFiles/7ad3f23a872f935ec5cffb9e27b12178/dep-spdlog-test.rule
+C:/Users/Public/vscode/build/CMakeFiles/7ad3f23a872f935ec5cffb9e27b12178/dep-spdlog-update.rule
